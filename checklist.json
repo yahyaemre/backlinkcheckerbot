@@ -1,38 +1,3 @@
 [
-  {
-    "url": "haber.com",
-    "backlink": "v.haber.com",
-    "amount": 1,
-    "ownerId": 1247166387
-  },
-  {
-    "url": "haber.com",
-    "backlink": "sondakika.haber.com",
-    "amount": 4,
-    "ownerId": 1247166387
-  },
-  {
-    "url": "blog.logrocket.com",
-    "backlink": "blog.logrocket.com",
-    "amount": 280,
-    "ownerId": 6823616726
-  },
-  {
-    "url": "haber.com",
-    "backlink": "a.haber.com",
-    "amount": 4,
-    "ownerId": 6823616726
-  },
-  {
-    "url": "haber.com",
-    "backlink": "sondakika.haber.com",
-    "amount": 4,
-    "ownerId": 1125780346
-  },
-  {
-    "url": "youtube.com",
-    "backlink": "music.youtube.com",
-    "amount": 0,
-    "ownerId": 1247166387
-  }
+  
 ]
