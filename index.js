@@ -285,7 +285,7 @@ setInterval(() => {
     checkTheListByDay();
 }, 24 * 60 * 60 * 1000);  // 24 saatte bir kontrol
 
-bot.start((ctx) => ctx.reply(`Merhaba *${ctx.message.from.username}*, ben *Backlink Checker Bot*!\nBeni kullanarak backlinklerini düzenli olarak takip edebilir ya da tekli sorgular yapabilirsin.\nYardım almak için /help komutunu kullan.`, { parse_mode: 'Markdown' }));
+bot.start((ctx) => ctx.reply(`Merhaba *${ctx.message.from.first_name}*, ben *Backlink Checker Bot*!\nBeni kullanarak backlinklerini düzenli olarak takip edebilir ya da tekli sorgular yapabilirsin.\nYardım almak için /help komutunu kullan.`, { parse_mode: 'Markdown' }));
 
 bot.command('check', (ctx) => {
     const args = ctx.message.text.split(' ').slice(1);
