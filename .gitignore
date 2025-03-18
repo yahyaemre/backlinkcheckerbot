@@ -1,0 +1,27 @@
+# Node.js modüllerini hariç tut
+node_modules/
+
+# Çevresel değişken dosyalarını hariç tut
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Derlenmiş dosyalar ve bağımlılıklar
+dist/
+build/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.iml
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
